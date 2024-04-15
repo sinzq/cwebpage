@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Command Descriptions</title>
+  <style>
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+      line-height: 1.6;
+      background-color: #0d1117;
+      color: #c9d1d9;
+      padding: 20px;
+      text-align: center;
+    }
+    h1, h2 {
+      color: #58a6ff;
+    }
+    pre {
+      background-color: #161b22;
+      color: #c9d1d9;
+      padding: 20px;
+      border-radius: 6px;
+      text-align: left;
+      overflow-x: auto;
+    }
+  </style>
+</head>
+<body>
+
+<h1>Command Descriptions</h1>
+
+<h2>Navigation Commands:</h2>
+<pre>
+cd [directory]: Change directory.
+ls [options] [directory]: List directory contents.
+pwd: Print working directory.
+mkdir [directory]: Make directory.
+rmdir [directory]: Remove directory.
+cp [options] source destination: Copy files and directories.
+mv [options] source destination: Move or rename files and directories.
+rm [options] file: Remove files or directories.
+</pre>
+
+<h2>File Manipulation Commands:</h2>
+<pre>
+cat [file]: Concatenate and display file content.
+more [file]: Display file content page by page.
+less [file]: Display file content with backward navigation.
+head [options] [file]: Output the first part of files.
+tail [options] [file]: Output the last part of files.
+touch [file]: Create an empty file or update timestamp.
+chmod [options] mode file: Change file permissions.
+</pre>
+
+<h2>Text Processing Commands:</h2>
+<pre>
+grep [options] pattern [file]: Search for patterns in files.
+sed [options] 'command' [file]: Stream editor for filtering and transforming text.
+awk 'pattern {action}' [file]: Pattern scanning and processing language.
+sort [options] [file]: Sort lines of text files.
+uniq [options] [file]: Report or filter out repeated lines in a file.
+cut [options] [file]: Remove sections from each line of files.
+paste [options] [file1] [file2]: Merge lines of files.
+tr [options] set1 set2: Translate or delete characters.
+</pre>
+
+<!-- Add other sections for System Information, Network, Package Management, User Management, Process Management -->
+
+</body>
+</html>

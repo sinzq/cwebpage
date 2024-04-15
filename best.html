@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Command Descriptions</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      line-height: 1.6;
+      padding: 20px;
+      text-align: center;
+    }
+    h1 {
+      color: #0366d6;
+    }
+    pre {
+      background-color: #f6f8fa;
+      color: #24292e;
+      padding: 20px;
+      border-radius: 6px;
+      text-align: left;
+      overflow-x: auto;
+      margin: 0 auto;
+      max-width: 800px;
+    }
+  </style>
+</head>
+<body>
+
+<h1>Command Descriptions</h1>
+
+<h2>Navigation Commands:</h2>
+<pre>
+cd [directory]: Change directory.
+ls [options] [directory]: List directory contents.
+pwd: Print working directory.
+mkdir [directory]: Make directory.
+rmdir [directory]: Remove directory.
+cp [options] source destination: Copy files and directories.
+mv [options] source destination: Move or rename files and directories.
+rm [options] file: Remove files or directories.
+</pre>
+
+<h2>File Manipulation Commands:</h2>
+<pre>
+cat [file]: Concatenate and display file content.
+more [file]: Display file content page by page.
+less [file]: Display file content with backward navigation.
+head [options] [file]: Output the first part of files.
+tail [options] [file]: Output the last part of files.
+touch [file]: Create an empty file or update timestamp.
+chmod [options] mode file: Change file permissions.
+</pre>
+
+<h2>Text Processing Commands:</h2>
+<pre>
+grep [options] pattern [file]: Search for patterns in files.
+sed [options] 'command' [file]: Stream editor for filtering and transforming text.
+awk 'pattern {action}' [file]: Pattern scanning and processing language.
+sort [options] [file]: Sort lines of text files.
+uniq [options] [file]: Report or filter out repeated lines in a file.
+cut [options] [file]: Remove sections from each line of files.
+paste [options] [file1] [file2]: Merge lines of files.
+tr [options] set1 set2: Translate or delete characters.
+</pre>
+
+<h2>System Information Commands:</h2>
+<pre>
+uname [options]: Print system information.
+df [options]: Report file system disk space usage.
+du [options] [directory]: Estimate file space usage.
+top: Display Linux processes.
+free [options]: Display amount of free and used memory in the system.
+ps [options]: Report a snapshot of the current processes.
+lsof [options]: List open files.
+</pre>
+
+<h2>Network Commands:</h2>
+<pre>
+ping [options] host: Send ICMP ECHO_REQUEST to network hosts.
+traceroute [options] host: Print the route packets trace to network host.
+ifconfig [interface] [options]: Configure network interface parameters.
+netstat [options]: Print network connections, routing tables, interface statistics, masquerade connections, and multicast memberships.
+nslookup [options] [host]: Query Internet name servers interactively.
+</pre>
+
+<h2>Network Monitoring Tools:</h2>
+<pre>
+iftop [options]: Display bandwidth usage on an interface.
+nload [options]: Monitor network traffic and bandwidth usage in real-time.
+tcpdump [options]: Capture and display network packets.
+iptraf [options]: Interactive IP LAN monitor.
+</pre>
+
+<h2>Package Management Commands:</h2>
+<pre>
+apt-get [options] [command] [package]: Command-line tool for handling packages.
+dpkg [options] [package]: Package manager for Debian-based systems.
+yum [options] [command] [package]: Package manager for RPM-based systems.
+rpm [options] [command] [package]: RPM package manager.
+pip [options] [command] [package]: Package installer for Python.
+conda [options] [command] [package]: Package manager for Python environments.
+</pre>
+
+<h2>User Management Commands:</h2>
+<pre>
+adduser [username]: Add a user to the system.
+userdel [username]: Delete a user account and related files.
+passwd [username]: Change user password.
+usermod [options] [username]: Modify user account.
+</pre>
+
+<h2>Process Management Commands:</h2>
+<pre>
+kill [options] [process ID]: Send signals to processes.
+killall [options] [process name]: Kill processes by name.
+nice [options] command: Run a command with modified scheduling priority.
+renice [options] [priority] [process ID]: Alter priority of running processes.
+jobs [options]: Display status of jobs.
+</pre>
+
+</body>
+</html>
